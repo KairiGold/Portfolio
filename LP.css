@@ -115,7 +115,8 @@ header{
     width:55%;
     font-size: 15px; 
     margin-top: 30px;
-    margin-left: 20px;  
+    margin-left: 20px;
+    margin-bottom:30px;
 }
 
 /*フォームの設定*/
