@@ -89,9 +89,6 @@ header{
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.profile_name p{
-    height:50px;
-}
 
 .subname{
     font-size: 25px;
@@ -99,9 +96,6 @@ header{
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.subname p{
-    height:50px;
-}
 
 .title{
     margin:0 auto;
@@ -122,6 +116,13 @@ header{
      height:400px;
 }
 
+.subname p{
+    height:50px;
+}
+
+.profile_name p{
+    height:50px;
+}
 
 
 .profile_text{
