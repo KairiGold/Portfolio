@@ -17,18 +17,19 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     </head>
     <body>
         <header>
             <div class="container">
                 <div class="header_logo">
-                    <a href="#">K.Shimizu</a>
+                    <a href="#Top" id="Top_btn">K.Shimizu</a>
                 </div>
                 <div class="header_list">
                     <ul>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Works</a></li>
-                        <li><a href="#">About me</a></li>
+                        <li><a href="#contact" class="scroll_btn">Contact</a></li>
+                        <li><a href="#works" class="scroll_btn">Works</a></li>
+                        <li><a href="#aboutme" class="scroll_btn">About me</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,6 +46,7 @@
             </div>
         </div>
 
+    <br id="aboutme">
     <br>
     <br>    
     <div class="Aboutme_wrapper">
@@ -111,7 +113,7 @@
                             <br>
                             C,C++,Pythonは研究で使用しています。JavaScriptはNode.js,jQueryを利用するにあたり学習したため、基本文法が分かる程度です。
                             <br>
-                            <br>
+                            <br id="works">
                         </p>
                     </div>
                 </div>
@@ -141,7 +143,7 @@
                 <br>
                 <br>
 
-                <span class="Contact_wrapper">
+                <span class="Contact_wrapper" id="contact">
 
                     <form action="#" method="post">
                         <dl>
@@ -166,4 +168,6 @@
                 
             </div>
         </div>
+        <script type="text/javascript" src="script.js"></script>
     </body>
+</html>
